@@ -7,10 +7,12 @@
 
 ## Desired directory structure
 
-  dist/
+```
+dist/
     config.json
     index.html
     main.bundle.js
+```
 
 ## Requirements
 
