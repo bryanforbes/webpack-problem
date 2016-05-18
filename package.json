@@ -1,0 +1,19 @@
+{
+  "name": "poop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --colors --display-error-details --display-cached",
+    "clean": "shx rm -rf dist"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "file-loader": "0.8.5",
+    "html-webpack-plugin": "2.17.0",
+    "json-loader": "0.5.4",
+    "shx": "0.1.2",
+    "webpack": "1.13.0"
+  }
+}
