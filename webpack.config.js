@@ -23,17 +23,6 @@ module.exports = {
 		extensions: [ '', '.js' ],
 		modulesDirectories: [ 'node_modules' ]
 	},
-	module: {
-		loaders: [
-			{
-				test: /\.json$/,
-				loader: 'file',
-				query: {
-					name: '[path][name].[ext]'
-				}
-			}
-		]
-	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: 'index.html',
